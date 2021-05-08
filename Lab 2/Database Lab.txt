@@ -1,0 +1,111 @@
+CREATE TABLE departments(
+department_id NUMBER(4),
+department_name VARCHAR2(30) CONSTRAINT dep_name_nn NOT NULL,
+manager_id NUMBER(6),
+location_id NUMBER(4)
+);
+
+CREATE TABLE jobs(
+job_id VARCHAR2(10),
+job_title VARCHAR2(35) CONSTRAINT job_title_nn NOT NULL,
+min_salary NUMBER(6),
+max_salary NUMBER(6)
+);
+
+CREATE TABLE locations (
+    locations_id NUMBER(4),
+    street_address VARCHAR2(40),
+    postal_code VARCHAR2(12),
+    city VARCHAR2(30) CONSTRAINT loc_city_nn NOT NULL,
+    state_province VARCHAR2(25),
+    country_id CHAR(2)
+);
+
+CREATE TABLE job_history(
+employee_id NUMBER(6),
+start_date DATE CONSTRAINT s_date_nn NOT NULL,
+end_date DATE CONSTRAINT e_date_nn NOT NULL,
+job_id VARCHAR2(10),
+department_id NUMBER(4)
+);
+
+ALTER TABLE countries
+MODIFY country_id CHAR(2);
+
+
+
+CREATE TABLE countries ( 
+country_id NUMBER(15),
+country_name VARCHAR2(20),
+region_id NUMBER(15) 
+);
+
+
+CREATE TABLE regions(
+region_id NUMBER(6),
+region_name VARCHAR2(20)
+);
+
+
+ALTER TABLE regions 
+ADD (CONSTRAINT reg_id_pk PRIMARY KEY (region_id)
+);
+
+ALTER TABLE countries
+ADD (CONSTRAINT country_id_pk PRIMARY KEY (country_id),
+CONSTRAINT country_reg_fk FOREIGN KEY (region_id) 
+REFERENCES regions (region_id)
+);
+
+ALTER TABLE locations
+ADD (CONSTRAINT location_id_pk PRIMARY KEY (locations_id),
+CONSTRAINT location_country_fk FOREIGN KEY(country_id)
+REFERENCES countries(country_id)
+);
+
+ALTER TABLE departments
+ADD (CONSTRAINT depart_id_pk PRIMARY KEY (department_id),
+CONSTRAINT depart_location_fk FOREIGN KEY (location_id)
+REFERENCES locations (locations_id)
+);
+
+ALTER TABLE jobs
+ADD (CONSTRAINT job_id_pk PRIMARY KEY (job_id)
+);
+
+ALTER TABLE employees
+ADD (CONSTRAINT emp_emp_id_pk PRIMARY KEY (employee_id),
+ CONSTRAINT emp_dept_fk FOREIGN KEY (department_id)
+ REFERENCES departments,
+ CONSTRAINT emp_job_fk FOREIGN KEY (job_id)
+ REFERENCES jobs (job_id),
+ CONSTRAINT emp_manager_fk FOREIGN KEY (manager_id)
+ REFERENCES employees
+) ;
+
+
+ALTER TABLE job_history
+ADD (CONSTRAINT job_history_pk PRIMARY KEY (employee_id),
+CONSTRAINT job_history_jobs_fk FOREIGN KEY (job_id)
+REFERENCES jobs,
+CONSTRAINT job_history_emp_fk FOREIGN KEY (employee_id)
+REFERENCES employees,
+CONSTRAINT job_history_dept_fk FOREIGN KEY (department_id)
+REFERENCES departments
+);
+
+INSERT INTO regions VALUES ('2', 'Europe');
+
+INSERT INTO countries VALUES ('GM', 'Germany', '2');
+
+INSERT INTO locations VALUES (1, '1415 West Fork Street', '59840', 'Hamilton', 'Montana', 'GM');
+
+INSERT INTO departments VALUES (1, 'IT', '', '1');
+
+INSERT INTO jobs VALUES ('Pres', 'President', 20000, 35000);
+
+INSERT INTO employees VALUES (100,'Steven', 'King', 'sking@hotmail.com','07-4533112', TO_DATE('22-JAN-2000', 'DD-MON-YYYY'), 'Pres', 20000, 0.9, '', 1);
+
+INSERT INTO job_history VALUES (100, TO_DATE('09-JAN-1993', 'DD-MON-YYYY'), TO_DATE('30-JUL-2000', 'DD-MON-YYYY'), 'Pres', 1);
+
+
