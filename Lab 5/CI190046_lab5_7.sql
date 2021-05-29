@@ -1,0 +1,3 @@
+SELECT last_name AS "LAST NAME", ROUND(MONTHS_BETWEEN(sysdate, hire_date)) AS "MONTHS_WORKED"
+FROM employees
+ORDER BY "MONTHS_WORKED"; 
