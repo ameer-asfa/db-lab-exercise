@@ -1,0 +1,502 @@
+SELECT LAST_NAME, HIRE_DATE, TO_CHAR(NEXT_DAY(ADD_MONTHS(hire_date, 6), 'Monday'), 'fmDay, "the" Ddspth "of" Month, YYYY') AS REVIEW 
+FROM employees;
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+King                      17-JUN-87
+Monday, the Twenty-First of December, 1987
+
+Kochhar                   21-SEP-89
+Monday, the Twenty-Sixth of March, 1990
+
+De Haan                   13-JAN-93
+Monday, the Nineteenth of July, 1993
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Hunold                    03-JAN-90
+Monday, the Ninth of July, 1990
+
+Ernst                     21-MAY-91
+Monday, the Twenty-Fifth of November, 1991
+
+Austin                    25-JUN-97
+Monday, the Twenty-Ninth of December, 1997
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Pataballa                 05-FEB-98
+Monday, the Tenth of August, 1998
+
+Lorentz                   07-FEB-99
+Monday, the Ninth of August, 1999
+
+Greenberg                 17-AUG-94
+Monday, the Twentieth of February, 1995
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Faviet                    16-AUG-94
+Monday, the Twentieth of February, 1995
+
+Chen                      28-SEP-97
+Monday, the Thirtieth of March, 1998
+
+Sciarra                   30-SEP-97
+Monday, the Sixth of April, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Urman                     07-MAR-98
+Monday, the Fourteenth of September, 1998
+
+Popp                      07-DEC-99
+Monday, the Twelfth of June, 2000
+
+Raphaely                  07-DEC-94
+Monday, the Twelfth of June, 1995
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Khoo                      18-MAY-95
+Monday, the Twentieth of November, 1995
+
+Baida                     24-DEC-97
+Monday, the Twenty-Ninth of June, 1998
+
+Tobias                    24-JUL-97
+Monday, the Twenty-Sixth of January, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Himuro                    15-NOV-98
+Monday, the Seventeenth of May, 1999
+
+Colmenares                10-AUG-99
+Monday, the Fourteenth of February, 2000
+
+Weiss                     18-JUL-96
+Monday, the Twentieth of January, 1997
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Fripp                     10-APR-97
+Monday, the Thirteenth of October, 1997
+
+Kaufling                  01-MAY-95
+Monday, the Sixth of November, 1995
+
+Vollman                   10-OCT-97
+Monday, the Thirteenth of April, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Mourgos                   16-NOV-99
+Monday, the Twenty-Second of May, 2000
+
+Nayer                     16-JUL-97
+Monday, the Nineteenth of January, 1998
+
+Mikkilineni               28-SEP-98
+Monday, the Twenty-Ninth of March, 1999
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Landry                    14-JAN-99
+Monday, the Nineteenth of July, 1999
+
+Markle                    08-MAR-00
+Monday, the Eleventh of September, 2000
+
+Bissot                    20-AUG-97
+Monday, the Twenty-Third of February, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Atkinson                  30-OCT-97
+Monday, the Fourth of May, 1998
+
+Marlow                    16-FEB-97
+Monday, the Eighteenth of August, 1997
+
+Olson                     10-APR-99
+Monday, the Eleventh of October, 1999
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Mallin                    14-JUN-96
+Monday, the Sixteenth of December, 1996
+
+Rogers                    26-AUG-98
+Monday, the First of March, 1999
+
+Gee                       12-DEC-99
+Monday, the Nineteenth of June, 2000
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Philtanker                06-FEB-00
+Monday, the Seventh of August, 2000
+
+Ladwig                    14-JUL-95
+Monday, the Fifteenth of January, 1996
+
+Stiles                    26-OCT-97
+Monday, the Twenty-Seventh of April, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Seo                       12-FEB-98
+Monday, the Seventeenth of August, 1998
+
+Patel                     06-APR-98
+Monday, the Twelfth of October, 1998
+
+Rajs                      17-OCT-95
+Monday, the Twenty-Second of April, 1996
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Davies                    29-JAN-97
+Monday, the Fourth of August, 1997
+
+Matos                     15-MAR-98
+Monday, the Twenty-First of September, 1998
+
+Vargas                    09-JUL-98
+Monday, the Eleventh of January, 1999
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Russell                   01-OCT-96
+Monday, the Seventh of April, 1997
+
+Partners                  05-JAN-97
+Monday, the Seventh of July, 1997
+
+Errazuriz                 10-MAR-97
+Monday, the Fifteenth of September, 1997
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Cambrault                 15-OCT-99
+Monday, the Seventeenth of April, 2000
+
+Zlotkey                   29-JAN-00
+Monday, the Thirty-First of July, 2000
+
+Tucker                    30-JAN-97
+Monday, the Fourth of August, 1997
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Bernstein                 24-MAR-97
+Monday, the Twenty-Ninth of September, 1997
+
+Hall                      20-AUG-97
+Monday, the Twenty-Third of February, 1998
+
+Olsen                     30-MAR-98
+Monday, the Fifth of October, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Cambrault                 09-DEC-98
+Monday, the Fourteenth of June, 1999
+
+Tuvault                   23-NOV-99
+Monday, the Twenty-Ninth of May, 2000
+
+King                      30-JAN-96
+Monday, the Fifth of August, 1996
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Sully                     04-MAR-96
+Monday, the Ninth of September, 1996
+
+McEwen                    01-AUG-96
+Monday, the Third of February, 1997
+
+Smith                     10-MAR-97
+Monday, the Fifteenth of September, 1997
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Doran                     15-DEC-97
+Monday, the Twenty-Second of June, 1998
+
+Sewall                    03-NOV-98
+Monday, the Tenth of May, 1999
+
+Vishney                   11-NOV-97
+Monday, the Eighteenth of May, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Greene                    19-MAR-99
+Monday, the Twentieth of September, 1999
+
+Marvins                   24-JAN-00
+Monday, the Thirty-First of July, 2000
+
+Lee                       23-FEB-00
+Monday, the Twenty-Eighth of August, 2000
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Ande                      24-MAR-00
+Monday, the Twenty-Fifth of September, 2000
+
+Banda                     21-APR-00
+Monday, the Twenty-Third of October, 2000
+
+Ozer                      11-MAR-97
+Monday, the Fifteenth of September, 1997
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Bloom                     23-MAR-98
+Monday, the Twenty-Eighth of September, 1998
+
+Fox                       24-JAN-98
+Monday, the Twenty-Seventh of July, 1998
+
+Smith                     23-FEB-99
+Monday, the Thirtieth of August, 1999
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Bates                     24-MAR-99
+Monday, the Twenty-Seventh of September, 1999
+
+Kumar                     21-APR-00
+Monday, the Twenty-Third of October, 2000
+
+Abel                      11-MAY-96
+Monday, the Eighteenth of November, 1996
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Hutton                    19-MAR-97
+Monday, the Twenty-Second of September, 1997
+
+Taylor                    24-MAR-98
+Monday, the Twenty-Eighth of September, 1998
+
+Livingston                23-APR-98
+Monday, the Twenty-Sixth of October, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Grant                     24-MAY-99
+Monday, the Twenty-Ninth of November, 1999
+
+Johnson                   04-JAN-00
+Monday, the Tenth of July, 2000
+
+Taylor                    24-JAN-98
+Monday, the Twenty-Seventh of July, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Fleaur                    23-FEB-98
+Monday, the Twenty-Fourth of August, 1998
+
+Sullivan                  21-JUN-99
+Monday, the Twenty-Seventh of December, 1999
+
+Geoni                     03-FEB-00
+Monday, the Seventh of August, 2000
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Sarchand                  27-JAN-96
+Monday, the Twenty-Ninth of July, 1996
+
+Bull                      20-FEB-97
+Monday, the Twenty-Fifth of August, 1997
+
+Dellinger                 24-JUN-98
+Monday, the Twenty-Eighth of December, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Cabrio                    07-FEB-99
+Monday, the Ninth of August, 1999
+
+Chung                     14-JUN-97
+Monday, the Fifteenth of December, 1997
+
+Dilly                     13-AUG-97
+Monday, the Sixteenth of February, 1998
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Gates                     11-JUL-98
+Monday, the Eighteenth of January, 1999
+
+Perkins                   19-DEC-99
+Monday, the Twenty-Sixth of June, 2000
+
+Bell                      04-FEB-96
+Monday, the Fifth of August, 1996
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Everett                   03-MAR-97
+Monday, the Eighth of September, 1997
+
+McCain                    01-JUL-98
+Monday, the Fourth of January, 1999
+
+Jones                     17-MAR-99
+Monday, the Twentieth of September, 1999
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Walsh                     24-APR-98
+Monday, the Twenty-Sixth of October, 1998
+
+Feeney                    23-MAY-98
+Monday, the Thirtieth of November, 1998
+
+OConnell                  21-JUN-99
+Monday, the Twenty-Seventh of December, 1999
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Grant                     13-JAN-00
+Monday, the Seventeenth of July, 2000
+
+Whalen                    17-SEP-87
+Monday, the Twenty-First of March, 1988
+
+Hartstein                 17-FEB-96
+Monday, the Nineteenth of August, 1996
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Fay                       17-AUG-97
+Monday, the Twenty-Third of February, 1998
+
+Mavris                    07-JUN-94
+Monday, the Twelfth of December, 1994
+
+Baer                      07-JUN-94
+Monday, the Twelfth of December, 1994
+
+
+LAST_NAME                 HIRE_DATE
+------------------------- ---------
+REVIEW
+--------------------------------------------------------------------------------
+Higgins                   07-JUN-94
+Monday, the Twelfth of December, 1994
+
+Gietz                     07-JUN-94
+Monday, the Twelfth of December, 1994

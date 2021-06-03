@@ -1,0 +1,140 @@
+SELECT last_name, hire_date, TO_CHAR(hire_date, 'DAY') AS DAY
+FROM employees
+ORDER BY TO_CHAR(hire_date - 1, 'd');
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+Kaufling                  01-MAY-95 MONDAY
+OConnell                  21-JUN-99 MONDAY
+Patel                     06-APR-98 MONDAY
+Errazuriz                 10-MAR-97 MONDAY
+Bernstein                 24-MAR-97 MONDAY
+Olsen                     30-MAR-98 MONDAY
+Sully                     04-MAR-96 MONDAY
+Smith                     10-MAR-97 MONDAY
+Doran                     15-DEC-97 MONDAY
+Marvins                   24-JAN-00 MONDAY
+Bloom                     23-MAR-98 MONDAY
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+Grant                     24-MAY-99 MONDAY
+Fleaur                    23-FEB-98 MONDAY
+Sullivan                  21-JUN-99 MONDAY
+Everett                   03-MAR-97 MONDAY
+Mikkilineni               28-SEP-98 MONDAY
+Ernst                     21-MAY-91 TUESDAY
+Faviet                    16-AUG-94 TUESDAY
+Sciarra                   30-SEP-97 TUESDAY
+Popp                      07-DEC-99 TUESDAY
+Colmenares                10-AUG-99 TUESDAY
+Mourgos                   16-NOV-99 TUESDAY
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+Rajs                      17-OCT-95 TUESDAY
+Russell                   01-OCT-96 TUESDAY
+Tuvault                   23-NOV-99 TUESDAY
+King                      30-JAN-96 TUESDAY
+Sewall                    03-NOV-98 TUESDAY
+Vishney                   11-NOV-97 TUESDAY
+Ozer                      11-MAR-97 TUESDAY
+Smith                     23-FEB-99 TUESDAY
+Taylor                    24-MAR-98 TUESDAY
+Johnson                   04-JAN-00 TUESDAY
+Mavris                    07-JUN-94 TUESDAY
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+Baer                      07-JUN-94 TUESDAY
+Higgins                   07-JUN-94 TUESDAY
+Gietz                     07-JUN-94 TUESDAY
+King                      17-JUN-87 WEDNESDAY
+De Haan                   13-JAN-93 WEDNESDAY
+Hunold                    03-JAN-90 WEDNESDAY
+Austin                    25-JUN-97 WEDNESDAY
+Greenberg                 17-AUG-94 WEDNESDAY
+Raphaely                  07-DEC-94 WEDNESDAY
+Baida                     24-DEC-97 WEDNESDAY
+Nayer                     16-JUL-97 WEDNESDAY
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+Markle                    08-MAR-00 WEDNESDAY
+Bissot                    20-AUG-97 WEDNESDAY
+Rogers                    26-AUG-98 WEDNESDAY
+Davies                    29-JAN-97 WEDNESDAY
+Hall                      20-AUG-97 WEDNESDAY
+Cambrault                 09-DEC-98 WEDNESDAY
+Lee                       23-FEB-00 WEDNESDAY
+Bates                     24-MAR-99 WEDNESDAY
+Hutton                    19-MAR-97 WEDNESDAY
+Dellinger                 24-JUN-98 WEDNESDAY
+Dilly                     13-AUG-97 WEDNESDAY
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+McCain                    01-JUL-98 WEDNESDAY
+Jones                     17-MAR-99 WEDNESDAY
+Kochhar                   21-SEP-89 THURSDAY
+Pataballa                 05-FEB-98 THURSDAY
+Khoo                      18-MAY-95 THURSDAY
+Tobias                    24-JUL-97 THURSDAY
+Weiss                     18-JUL-96 THURSDAY
+Fripp                     10-APR-97 THURSDAY
+Landry                    14-JAN-99 THURSDAY
+Atkinson                  30-OCT-97 THURSDAY
+Seo                       12-FEB-98 THURSDAY
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+Vargas                    09-JUL-98 THURSDAY
+Tucker                    30-JAN-97 THURSDAY
+McEwen                    01-AUG-96 THURSDAY
+Livingston                23-APR-98 THURSDAY
+Geoni                     03-FEB-00 THURSDAY
+Bull                      20-FEB-97 THURSDAY
+Grant                     13-JAN-00 THURSDAY
+Whalen                    17-SEP-87 THURSDAY
+Vollman                   10-OCT-97 FRIDAY
+Mallin                    14-JUN-96 FRIDAY
+Ladwig                    14-JUL-95 FRIDAY
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+Cambrault                 15-OCT-99 FRIDAY
+Greene                    19-MAR-99 FRIDAY
+Ande                      24-MAR-00 FRIDAY
+Banda                     21-APR-00 FRIDAY
+Kumar                     21-APR-00 FRIDAY
+Walsh                     24-APR-98 FRIDAY
+Urman                     07-MAR-98 SATURDAY
+Olson                     10-APR-99 SATURDAY
+Zlotkey                   29-JAN-00 SATURDAY
+Fox                       24-JAN-98 SATURDAY
+Abel                      11-MAY-96 SATURDAY
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+Taylor                    24-JAN-98 SATURDAY
+Sarchand                  27-JAN-96 SATURDAY
+Chung                     14-JUN-97 SATURDAY
+Gates                     11-JUL-98 SATURDAY
+Feeney                    23-MAY-98 SATURDAY
+Hartstein                 17-FEB-96 SATURDAY
+Lorentz                   07-FEB-99 SUNDAY
+Chen                      28-SEP-97 SUNDAY
+Himuro                    15-NOV-98 SUNDAY
+Marlow                    16-FEB-97 SUNDAY
+Gee                       12-DEC-99 SUNDAY
+
+LAST_NAME                 HIRE_DATE DAY
+------------------------- --------- ------------------------------------
+Philtanker                06-FEB-00 SUNDAY
+Stiles                    26-OCT-97 SUNDAY
+Matos                     15-MAR-98 SUNDAY
+Partners                  05-JAN-97 SUNDAY
+Cabrio                    07-FEB-99 SUNDAY
+Perkins                   19-DEC-99 SUNDAY
+Bell                      04-FEB-96 SUNDAY
+Fay                       17-AUG-97 SUNDAY

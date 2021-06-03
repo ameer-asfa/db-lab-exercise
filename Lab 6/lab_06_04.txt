@@ -1,0 +1,140 @@
+SELECT last_name, NVL(TO_CHAR(commission_pct), 'No Commision') AS COMM
+FROM employees
+ORDER BY commission_pct;
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+Lee                       .1
+Johnson                   .1
+Marvins                   .1
+Banda                     .1
+Kumar                     .1
+Ande                      .1
+Greene                    .15
+Grant                     .15
+Tuvault                   .15
+Bates                     .15
+Smith                     .15
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+Taylor                    .2
+Bloom                     .2
+Fox                       .2
+Cambrault                 .2
+Livingston                .2
+Zlotkey                   .2
+Olsen                     .2
+Sewall                    .25
+Hall                      .25
+Bernstein                 .25
+Vishney                   .25
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+Hutton                    .25
+Ozer                      .25
+Abel                      .3
+Smith                     .3
+Partners                  .3
+Errazuriz                 .3
+Tucker                    .3
+Cambrault                 .3
+Doran                     .3
+King                      .35
+Sully                     .35
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+McEwen                    .35
+Russell                   .4
+King                      No Commision
+Kochhar                   No Commision
+De Haan                   No Commision
+Hunold                    No Commision
+Ernst                     No Commision
+Austin                    No Commision
+Pataballa                 No Commision
+Lorentz                   No Commision
+Greenberg                 No Commision
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+Faviet                    No Commision
+Chen                      No Commision
+Sciarra                   No Commision
+Urman                     No Commision
+Popp                      No Commision
+Raphaely                  No Commision
+Khoo                      No Commision
+Baida                     No Commision
+Tobias                    No Commision
+Himuro                    No Commision
+Colmenares                No Commision
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+Weiss                     No Commision
+Fripp                     No Commision
+Kaufling                  No Commision
+Vollman                   No Commision
+Mourgos                   No Commision
+Nayer                     No Commision
+Mikkilineni               No Commision
+Landry                    No Commision
+Markle                    No Commision
+Bissot                    No Commision
+Atkinson                  No Commision
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+Marlow                    No Commision
+Olson                     No Commision
+Mallin                    No Commision
+Rogers                    No Commision
+Gee                       No Commision
+Philtanker                No Commision
+Ladwig                    No Commision
+Stiles                    No Commision
+Seo                       No Commision
+Patel                     No Commision
+Rajs                      No Commision
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+Davies                    No Commision
+Matos                     No Commision
+Vargas                    No Commision
+Taylor                    No Commision
+Fleaur                    No Commision
+Sullivan                  No Commision
+Geoni                     No Commision
+Sarchand                  No Commision
+Bull                      No Commision
+Dellinger                 No Commision
+Cabrio                    No Commision
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+Chung                     No Commision
+Dilly                     No Commision
+Gates                     No Commision
+Perkins                   No Commision
+Bell                      No Commision
+Everett                   No Commision
+McCain                    No Commision
+Jones                     No Commision
+Walsh                     No Commision
+Feeney                    No Commision
+OConnell                  No Commision
+
+LAST_NAME                 COMM
+------------------------- ----------------------------------------
+Grant                     No Commision
+Whalen                    No Commision
+Hartstein                 No Commision
+Fay                       No Commision
+Mavris                    No Commision
+Baer                      No Commision
+Higgins                   No Commision
+Gietz                     No Commision

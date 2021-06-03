@@ -1,0 +1,143 @@
+SELECT job_id, (CASE job_id
+WHEN 'AD_PRESS' THEN 'A'
+WHEN 'ST_MAN' THEN 'B'
+WHEN 'IT_PROG' THEN 'C'
+ELSE '0' END) AS GRADE
+FROM employees;
+
+JOB_ID     G
+---------- -
+AC_ACCOUNT 0
+AC_MGR     0
+AD_ASST    0
+AD_PRES    0
+AD_VP      0
+AD_VP      0
+FI_ACCOUNT 0
+FI_ACCOUNT 0
+FI_ACCOUNT 0
+FI_ACCOUNT 0
+FI_ACCOUNT 0
+
+JOB_ID     G
+---------- -
+FI_MGR     0
+HR_REP     0
+IT_PROG    C
+IT_PROG    C
+IT_PROG    C
+IT_PROG    C
+IT_PROG    C
+MK_MAN     0
+MK_REP     0
+PR_REP     0
+PU_CLERK   0
+
+JOB_ID     G
+---------- -
+PU_CLERK   0
+PU_CLERK   0
+PU_CLERK   0
+PU_CLERK   0
+PU_MAN     0
+SA_MAN     0
+SA_MAN     0
+SA_MAN     0
+SA_MAN     0
+SA_MAN     0
+SA_REP     0
+
+JOB_ID     G
+---------- -
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+
+JOB_ID     G
+---------- -
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+
+JOB_ID     G
+---------- -
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SA_REP     0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+
+JOB_ID     G
+---------- -
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+
+JOB_ID     G
+---------- -
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+SH_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+
+JOB_ID     G
+---------- -
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+
+JOB_ID     G
+---------- -
+ST_CLERK   0
+ST_CLERK   0
+ST_CLERK   0
+ST_MAN     B
+ST_MAN     B
+ST_MAN     B
+ST_MAN     B
+ST_MAN     B
